@@ -100,8 +100,7 @@ class sign_up : AppCompatActivity() {
         else if(TextUtils.isEmpty(getMob)){
             Toast.makeText(this,"Enter Mobile!",Toast.LENGTH_SHORT).show()
         }
-        else
-        {
+        else{
             loadingDialog.setTitle("Creating Account")
             loadingDialog.setMessage("Please Wait")
             loadingDialog.setCanceledOnTouchOutside(false)
